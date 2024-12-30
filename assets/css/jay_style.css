@@ -168,3 +168,9 @@ html {
 .rn-testimonial-area{
     overflow-x: hidden !important;
 }
+
+@media (max-width: 556px) {
+    header {
+        overflow: hidden !important;
+    }
+}
