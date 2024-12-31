@@ -1,15 +1,18 @@
 html {
     scroll-behavior: smooth !important;
-  }
+}
 
 .mouse-cursor {
     position: fixed;
     left: 0;
     top: 0;
-    pointer-events: none; /* Ensures cursor doesn’t block clicks */
+    pointer-events: none;
+    /* Ensures cursor doesn’t block clicks */
     border-radius: 50%;
-    transform: translateZ(0); /* Prevents rendering issues */
-    visibility: hidden; /* Hidden initially */
+    transform: translateZ(0);
+    /* Prevents rendering issues */
+    visibility: hidden;
+    /* Hidden initially */
     z-index: 1000;
 }
 
@@ -19,8 +22,8 @@ html {
     width: 6px;
     height: 6px;
     background-color: var(--extra-color);
-    transition: width 0.3s ease-in-out, height 0.3s ease-in-out, 
-                margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out,
+        margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
 .cursor-inner.cursor-hover {
@@ -47,7 +50,8 @@ html {
 }
 
 :root {
-    --extra-color: #FF014F; /* Adjust to your desired color */
+    --extra-color: #FF014F;
+    /* Adjust to your desired color */
 }
 
 
@@ -65,43 +69,43 @@ html {
     color: #FF014F;
 }
 
-.nav-item .nav-link{
+.nav-item .nav-link {
     color: #aaa !important;
 }
 
-.nav-item .nav-link:hover{
+.nav-item .nav-link:hover {
     color: #FF014F !important;
 }
 
-.current .nav-link{
+.current .nav-link {
     color: #FF014F !important;
 }
 
-.popup-mobile-menu .inner{
+.popup-mobile-menu .inner {
     overflow: hidden !important;
 }
 
-.menu-top{
+.menu-top {
     position: relative;
     text-align: center;
 }
 
-.menu-header{
+.menu-header {
     justify-content: center !important;
 }
 
-.menu-top h4{
+.menu-top h4 {
     font-size: 22px;
     font-weight: 600;
     color: #222;
     margin-bottom: 0px;
 }
 
-.menu-top p{
+.menu-top p {
     margin-top: 0px !important;
 }
 
-.menu-header .logo img{
+.menu-header .logo img {
     width: 120px !important;
     height: 120px !important;
     border-radius: 50%;
@@ -109,68 +113,77 @@ html {
     margin-bottom: 10px;
 }
 
-.social-share-style-1{
+.social-share-style-1 {
     margin-top: 20px !important;
 }
 
-.close-button{
+.close-button {
     position: absolute;
     top: 5px !important;
     right: 0px;
 }
 
-.popup-mobile-menu{
+.popup-mobile-menu {
     overflow-x: hidden !important;
     height: 100vh;
 }
 
-.heading{
+.heading {
     margin: 0px !important;
     padding: 0px !important;
     border: none !important;
 }
 
-.my_skill{
+.my_skill {
     width: 100%;
     margin-bottom: 15px;
 }
 
-@media(max-width:556px){
-    .my_skill{
+@media(max-width:556px) {
+    .my_skill {
         margin: 0px;
         text-align: center;
     }
-    .content{
+
+    .content {
         margin-bottom: 30px;
     }
 }
 
-.my_skill .subtitle{
+.my_skill .subtitle {
     color: #FF014F;
 }
 
-.my_skill .maintitle{
+.my_skill .maintitle {
     color: #000;
 }
 
-.title span{
+.title span {
     margin-bottom: 10px;
 }
 
-.title h4 a{
+.title h4 a {
     color: blue;
 }
 
-.rn-btn span{
+.rn-btn span {
     font-weight: 600 !important;
 }
 
-.rn-testimonial-area{
+.rn-testimonial-area {
     overflow-x: hidden !important;
 }
+
 
 @media (max-width: 556px) {
     header {
         overflow: hidden !important;
     }
+}
+
+.logo h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #FF014F;
+    margin: 0px;
 }
